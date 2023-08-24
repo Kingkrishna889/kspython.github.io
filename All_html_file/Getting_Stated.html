@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>C language</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="/index.html">Ks Python</a></h1>
+            <div>
+                <ul>
+                    <li><a href="#"><button><b>Login</b></button></a></li>
+                    <li><a href="#"><button><b>SignUp</b></button></a></li>
+                    <!-- <li><a href="#">Home</a></li> -->
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="/index.html">Home</a></li>
+                </ul>
+            </div> 
+        </div>
+    </header>
+    <nav>
+        <a href="/index.html">Home</a>
+        <a href="/All_html_file/c.html">C</a>
+        <a href="#">C++</a>
+        <a href="#">Python</a>
+        <!-- <a href="#">SignUp</a> -->
+        <!-- <a href="#">Login</a> -->
+    </nav>
+    <main>
+        <section>
+            <div class="cnavbar">
+                <div class="cnavbarcontainer">
+                    <h2><a href="/All_html_file/c.html">Block Diagram of Computer</a></h2><hr>
+                    <h2><a href="/All_html_file/Getting_Stated.html">Getting Stated with C</a></h2><hr>
+                    <h2><a href="/All_html_file/Structure_of_C_Program.html">Structure of C Program</a></h2><hr>
+                    <h2><a href="#">Operators</a></h2><hr>
+                    <h2><a href="#">Decision based statements (if, if-else)</a></h2><hr>
+                    <h2><a href="#">Iterative Statements (While loop, for loop)</a></h2><hr>
+                </div>
+                <hr>
+                <div class="getting_stated_with_c">
+                    <h1>C Character Set</h1>&nbsp;
+                    <p>The first thing that we learn in any language is the set of characters used in that language. For example- when we start learning English, firstly we require to learn English alphabets.</p>&nbsp;
+                    <P>Similarly, there are many characters that can be used to write a C program. Collection of those characters is referred as "C Character Set".</P>&nbsp;
+                    <p><b>C Character Set</b></p>&nbsp;
+                    <p><b>Following characters can be used to write a C program-</b></p>&nbsp;
+                    <p><b>1. Alphabets -</b> A,B,C ....Z, and a, b, c, ....z</p>&nbsp;
+                    <p><b>2. Digits -</b> 0,1, ...9</p>&nbsp;
+                    <p><b>3. Blank Space -</b></p>&nbsp;
+                    <p><b>4. Special Symbols -</b>  #, (, ), {, }, [, ], +, -, *, / etc.</p>&nbsp;
+                    <h1>C Tokens</h1>&nbsp;
+                    <p><b>Tokens are the basic building blocks of C program.</b></p>&nbsp;
+                    <p>There are 5 types of tokens in C. They are-</p>&nbsp;
+                    <p>1. Keywords</p>&nbsp;
+                    <p>2. Identifiers</p>&nbsp;
+                    <p>3. Literals (or Constants)</p>&nbsp;
+                    <p>4. Operators</p>&nbsp;
+                    <p>5. Separators</p>&nbsp;
+                    <p><b>Keywords- </b>There are some words that have special meaning to C. These are called reserve words, because they are reserve for C program. There are total 32 keywords in C. They are always written in small case alphabets. They are-</p>&emsp;
+                    <img width="800px" src="/photo/keywords in c.png" alt="Keywords in c">&emsp13;
+                    <p><b>Identifiers-</b> These are names given to variables, functions, arrays, strings, structures etc.</p>&nbsp;
+                    <p><b>Naming Rules for Identifiers -</b> In real life, we can name our pet, our house or anything that we want to name and there is no specific rule for naming. Although, we take care that the name we choose do not hurt the sentiments of some other person</p>&nbsp;
+                    <P><b>But in C there are some rules that need to be followed for naming identifiers. They are-</b></P>&nbsp;
+                    <p>1. It consist of alphabets, digits or underscore( _ ).</p>&nbsp;
+                    <p>2. It should not start with digit.</p>&nbsp;
+                    <p>3. It can be up-to 8 characters long (in DOS) and 256 characters long (in Windows).</p>&nbsp;
+                    <p>4. It should not be a Keyword.</p>&nbsp;
+                    <p>5. It should not contain blank space.</p>&nbsp;
+                    <p>6. Small case and capital case alphabets are distinct.</p>&nbsp;
+                    <p>7. It should not contain special symbol (except underscore).</p>&nbsp;
+                    <p><b>Example-</b></p>&emsp;
+                    <img width="800px" src="/photo/Rules of indentifiers.png"alt="Rules of indentifiers">&emsp;
+                    <p><b>Literals-</b> These are constant values that can be used in a C program. There are 4 types of literals in C. They are-</p>&nbsp;
+                    <p><b>1. Integer Literals –</b> For example- 10, 100, 23456 etc.</p>&nbsp;
+                    <p><b>2. Float (Real) Literals –</b> For example 10.4, 100.354 etc.</p>&nbsp;
+                    <p><b>3. Character Literals –</b> For example ‘a’, ‘+’, ‘1’ etc. It means any single character. They are always enclosed in single quotes.</p>&nbsp;
+                    <p><b>4. String Literals -</b> For example “college”, “a”, “what is your name?” etc. It means any group of characters or single character. They are always enclosed in double quotes.</p>&nbsp;
+                    <p>Operators- These are symbols used to perform operation on operands. Operands may
+                        be variables or constants values. For example-</p>&nbsp;
+                    <P>A + B,    A+10 etc.</P>&nbsp;
+                    <p>In above examples, A, B, 10 are operands and + is operator.</p>&nbsp;
+                    <p><b>There are 3 categories of operators-</b></p>&nbsp;
+                    <p><b>1. Unary operators -</b> requires one operand. Example –</p>&nbsp;
+                    <p>a++</p>&nbsp;
+                    <p>-a</p>&nbsp;
+                    <p><b>2. Binary operators - </b> requires two operands. Example –</p>&nbsp;
+                    <p>a+b,</p>&nbsp;
+                    <p>a*b,</p>&nbsp;
+                    <p>a-b</p>&nbsp;
+                    <p><b>3. Ternary operators -</b> requires three operands.Example – Conditional operator ( ? :)</p>&nbsp;
+                    <p>operand1 ? operand2 : operand3</p>&nbsp;
+                    <p><b></b></p>&nbsp;
+                    <p><b></b></p>&nbsp;
+                    <p><b>Various types of operators in C are-</b></p>&nbsp;
+                    <p>1. Arithmetic operators</p>&nbsp;
+                    <p>2. Assignment operator</p>&nbsp;
+                    <p>3. Relational (or Comparison) operators</p>&nbsp;
+                    <p>4. Logical operators</p>&nbsp;
+                    <p>5. Increment and Decrement operators</p>&nbsp;
+                    <p>6. Conditional operators</p>&nbsp;
+                    <p>7. Bit-wise operators</p>&nbsp;
+                    <p>8. Some special operators</p>&nbsp;
+                    <p>We will discuss only Arithmetic operators and Assignment operator here. Rest of the operators will be discussed in other sections.</p>&nbsp;
+                    <p><b>Arithmetic Operators-</b> These operators are used to perform arithmetic operations. All arithmetic operators are binary except subtraction (-) which may be unary also. Various arithmetic operators in C are-</p>&nbsp;
+                    <p><b>1. Addition ( + ) -</b> For example- 10+20 = 30, 10.5+20 = 30.5</p>&nbsp;
+                    <p><b>2. Subtraction ( - )</b> For example- 10-20 = -10, 10.5-20 = -9.5</p>&nbsp;
+                    <p><b>3. Multiplication ( * )</b> For example- 10*20 = 200, 10.5*20 = 210.0</p>&nbsp;
+                    <p><b>4. Division ( / )</b></p>&nbsp;
+                    <p><b>Example-1.</b>Example-1. 10/20= 0 (because in C, integer/integer=integer)</p>
+                    <p><b>Example-2.</b>10/20.0= 0.5 (because in C, integer/real=real)</p>
+                    <p><b>Example-3.</b>10.0/20= 0.5 (because in C, real/integer=real)</p>
+                    <p><b>Example-4.</b>10.0/20.0= 0.5 (because in C, real/real=real)</p>
+                    <p><b>5. Modulus ( % ) </b>This operator is used to find the remainder. Both of its operands must be integer.</p>&nbsp;
+                    <p><b>Example-1</b>. 10%3 = 1  &emsp; &emsp;    <b> Example-2.</b> 10/3=3</p>&nbsp;
+                    <p><b>Assignment Operator –</b> There is only one assignment operator. Its symbol is ( = ). It is used to assign the value at its Right Hand Side (RHS) to the variable at its Left Hand Side (LHS). It is a binary operator.</p>&nbsp;
+                    <p><b>Example- In Mathematics –</b></p>&nbsp;
+                    <p>A = B + 20 (Correct)</p>
+                    <p>B + 20 = A (Correct)</p>&nbsp;
+                    <p><b>Example- In C language –</b></p>&nbsp;
+                    <p>A = B + 20 (Correct)</p>
+                    <p>B + 20 = A (Incorrect)</p>&nbsp;
+                    <p><b>Compound assignment operators-</b> These are mixture of arithmetic operators and assignment operator. They are binary operators. There are 5 compound assignment operators. They are-</p>&nbsp;
+                    <p><b>1.      + =</b></p>
+                    <p><b>2.      - =</b></p>
+                    <p><b>3.      * =</b></p>
+                    <p><b>4.      / =</b></p>
+                    <p><b>5.      % =</b></p>&nbsp;
+                    <p><b>Example-</b></p>&nbsp;
+                    <p>A+ = 10 It means A = A + 10</p>
+                    <p>A* = B It means A = A * B</p>
+                    <p>And so on.</p>&nbsp;
+                    <p><b>Separators-</b> These are symbols used to separate a group of code from one another. The most commonly used separator is a semicolon. As we have seen it is used to terminate the statement. Various separators in C are-</p>&nbsp;
+                    <p>1. [ ] - Brackets</p>
+                    <p>2. ( ) - Parentheses</p>
+                    <p>3. { } - Braces</p>
+                    <p>4. ;    - Semi Colon</p>
+                    <p>5. .    - Period (Dot)</p>
+                    <p>6. ,    - Comma</p>
+                    <h1><b>Example C Program (with reference to C tokens)</b></h1>&nbsp;
+                    <p>#include <stdio.h> <br>
+                        int main()<br>
+                        { <br>  
+                            int number1, number2, sum;<br>
+                            printf("Enter two integers: ");<br>
+                            scanf("%d %d", &number1, &number2);<br>
+                            
+                            // calculating sum<br>
+                            sum = number1 + number2; <br>   
+                        
+                            printf("%d + %d = %d", number1, number2, sum);<br>
+                            return 0;<br>
+                        }<br>
+                        </p>&nbsp;
+                    <p><b>Above C program consist of following C tokens-</b></p>&nbsp;
+                    <p><b>Keywords-  </b></p>&nbsp;
+                    <p>int</p>
+                    <p>return</p>&nbsp;
+                    <p><b>Identifiers- </b></p>
+                    <p>main</p>
+                    <p>number1</p>
+                    <p>number2   </p>
+                    <p>sum</p>
+                    <p>printf</p>
+                    <p>scanf</p>&nbsp;
+                    <p><b>Literals (Constants)-</b></p>&nbsp;
+                    <p>"Enter two integers: "<br>
+                        "%d %d"<br>
+                        "%d + %d = %d"<br>
+                        0</p>&nbsp;
+                    <p><b>Operators-</b>
+                        &<br>
+                        =<br>
+                        +</p>&nbsp;
+                    <p><b>Separators-</b>
+                        ()
+                        {}
+                        ,
+                        ;</p>&nbsp;
+                    <h1><b>Data Types in C</b></h1>
+                    <p><b>Variables- </b>Variable is an identifier used to store values in it. For example – a,b,c, etc. A variable is nothing but a name given to a storage area that our programs can manipulate. Each variable in C has a specific type, which determines-</p>&nbsp;
+                    <p>1. the size and layout of the variable's memory;<br>
+                       2. the range of values that can be stored within that memory;<br>
+                       3. and the set of operations that can be applied to the variable.</p>&nbsp;
+                    <p><b>Data Types-</b> Each variable that we declare in a C program must have a data type. Data type tells-</p>&nbsp;
+                    <p>1. Size of space occupied by that variable.<br>
+                       2. Type of value that can be stored in that variable.<br>
+                       3. Range of value that can be stored in that variable.<br>
+                       4. Format specifier (how C will recognize the data type of variable)</p>&nbsp;
+                    <p><b>In C, there are 3 categories of data types-</b></p>&nbsp;
+                    <p>1. Integer types<br>
+                       2. Floating point types<br>
+                       3. Character Types</p>&nbsp;
+                       
+                    <p><b>Integer types-</b></p>&nbsp;
+                    <p><b>(i) int or signed int or short</b></p>
+                    <p>Space-     &emsp;&emsp;&emsp;  &emsp;&emsp;&emsp;               2 bytes <br>
+                       Type of value-    &emsp;&emsp;&emsp;          Integer type<br>
+                       Range-            &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;         -32768 to +32767<br>
+                       Format specifier-  &emsp;&emsp;        %d</p>&nbsp;
+                    <p><b>(ii) unsigned int or unsigned short</b></p>
+                    <p>Space-   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;          2 bytes<br>
+                        Type of value-     &emsp;&emsp;&emsp;               Integer type<br>
+                        Range-              &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;  0 to +65535<br>
+                        Format specifier-     &emsp;&emsp; %ud</p>&nbsp;
+                    <p><b>(iii) long or long int or signed long int</b></p>
+                    <p>Space &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-4 bytes<br>
+                        Type of value-&emsp;&emsp;&emsp;          Integer type<br>
+                        Range-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-2,147,483,648 to +2,147,483,647<br>
+                        Format specifier-&emsp;&emsp;      %ld</p>&nbsp;
+                    <p><b>(iv) unsigned long or unsigned long int</b></p>
+                    <p>Space&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-4 bytes<br>
+                        Type of value-&emsp;&emsp;&emsp;Integer type<br>
+                        Range-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;0 to + 4,294,967,295<br>
+                        Format specifier-&emsp;&emsp;%lu</p>&nbsp;
+                    <p><b>Floating Point types-</b></p>&nbsp;
+                    <p><b>(i) float</b></p>
+                    <p>Space-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;4 bytes<br>
+                        Type of value-&emsp;&emsp;&emsp;Real type<br>
+                        Range-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -3.4E-38 to +3.4E+38<br>
+                        Format specifier-&emsp;&emsp;%f</p>&nbsp;
+                    <p><b>(ii) double</b></p>
+                    <p>Space-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;8 bytes<br>
+                        Type of value-&emsp;&emsp;&emsp;Real type<br>
+                        Range-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  -1.7E-308 to +1.7E+308<br>
+                        Format specifier-&emsp;&emsp;%lf</p>&nbsp;
+                    <p><b>(iii) long double</b></p>
+                    <p>Space-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;10 bytes<br>
+                        Type of value-&emsp;&emsp;&emsp;Real type<br>
+                        Range-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  -3.4E-4932 to +1.1E+4932<br>
+                        Format specifier-&emsp;&emsp;%Lf</p>&nbsp;
+                    <p><b>Character types-</b></p>&nbsp;
+                    <p><b>(i) char or signed char</b></p>
+                    <p>Space-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;1 bytes<br>
+                        Type of value-&emsp;&emsp;&emsp;Character type<br>
+                        Range-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   -128 to +127<br>
+                        Format specifier-&emsp;&emsp;%c</p>&nbsp;
+                    <p><b>(ii) unsigned char</b></p>
+                    <p>Space-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;1 bytes<br>
+                        Type of value-&emsp;&emsp;&emsp;Character type<br>
+                        Range-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   0 to +255<br>
+                        Format specifier-&emsp;&emsp;%c</p>&nbsp;
+                    <!-- <p></p>&nbsp; -->
+                    <!-- <p></p>&nbsp; -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <a href="#">FAQ</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">YouTube</a>
+        <a href="#">| Copyright &copy; 2022 Kspython.ml</a>
+        <!-- <img src="/photo/laptop.jpg" width="5%"> -->
+    </footer>
+</body>
